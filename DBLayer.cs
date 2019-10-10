@@ -7,7 +7,7 @@ using Microsoft.Data.SqlClient;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 
-namespace compleadapi.DAL
+namespace ASP_NET_CORE_Samples.DAL
 {
     public class DataLayer
     {
