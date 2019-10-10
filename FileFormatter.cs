@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace compleadapi.Common
+namespace ASP_NET_CORE_Samples.Common
 {
     public enum FileType : byte
     {
