@@ -6,7 +6,7 @@ using compleadapi.DAL;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace compleadapi.Controllers
+namespace ASP_NET_CORE_Samples.Controllers
 {
     public partial class ApiController : ControllerBase
     {
