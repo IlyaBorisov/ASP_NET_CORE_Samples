@@ -7,7 +7,7 @@ using compleadapi.Models;
 using compleadapi.AnonymousAuth;
 using System.Net.Mime;
 
-namespace compleadapi
+namespace ASP_NET_CORE_Samples
 {
     public class Startup
     {
@@ -70,15 +70,15 @@ namespace compleadapi
                  })
                 .AddBasic<BasicAuth.AuthenticationService>(o =>
                 {
-                    o.Realm = "compleadapi basic";
+                    o.Realm = "basic";
                 })
                 .AddIdp<IdpAuth.AuthenticationService>(o =>
                 {
-                    o.Realm = "compleadapi idp";
+                    o.Realm = "idp";
                 })
                 .AddAnonymous(o =>
                 {
-                    o.Realm = "compleadapi anon";
+                    o.Realm = "anon";
                 });
             services.AddCors(options =>
             {
