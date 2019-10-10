@@ -6,7 +6,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Configuration;
 
-namespace compleadapi
+namespace ASP_NET_CORE_Samples
 {
     public class Program
     {
