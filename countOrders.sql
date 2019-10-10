@@ -1,4 +1,4 @@
-ALTER PROCEDURE [dbo].[API_TableCount_Uc]
+ALTER PROCEDURE [dbo].[countOrders]
 	@start_date DATETIME,
 	@end_date DATETIME,
 	@part_id int
